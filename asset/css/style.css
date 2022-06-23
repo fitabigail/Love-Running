@@ -347,4 +347,14 @@ height: 150px;
         padding: 20px;
 
     }
+    #photos{
+        columns: 3;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    #photos{
+        columns: 2;
+    }
 }
